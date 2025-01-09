@@ -1,5 +1,9 @@
 return {
   {
+    -- seamless Git itegration within the nvim editor
+    "tpope/vim-fugitive",
+  },
+  {
     "lewis6991/gitsigns.nvim",
     event = "VeryLazy",
     config = function()
