@@ -31,7 +31,7 @@ config.window_padding = {
 -- Keybindings
 config.keys = {
 	{ key = "w", mods = "CTRL", action = wezterm.action.CloseCurrentTab({ confirm = true }) }, -- Close the current tab
-	{ key = "l", mods = "CTRL|SHIFT", action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) }, -- Split pane horizontally
+	{ key = "|", mods = "CTRL|SHIFT", action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) }, -- Split pane horizontally
 	{ key = "j", mods = "ALT", action = wezterm.action.ActivatePaneDirection("Left") }, -- Move to the left pane
 	{ key = "l", mods = "ALT", action = wezterm.action.ActivatePaneDirection("Right") }, -- Move to the right pane
 	{ key = "v", mods = "CTRL", action = wezterm.action.PasteFrom("Clipboard") }, -- Paste from clipboard
