@@ -1,0 +1,122 @@
+# Shell
+# Specifies the shell to use. Options include bash, zsh, fish, etc.
+command = zsh
+# Enables shell integration features.
+shell-integration = zsh
+# Specific shell integration features to enable.
+shell-integration-features = cursor,no-sudo
+
+# Fonts
+# Sets the font family. Requires the font to be installed on the system.
+font-family = "Maple Mono NF"
+# Sets the default font style (normal, italic, bold). 'default' inherits from the base font settings.
+font-style = default
+# Sets the font style for bold text.
+font-style-bold = default
+# Sets the font style for italic text.
+font-style-italic = default
+# Sets the font style for bold italic text.
+font-style-bold-italic = default
+# Set which style to use when the font doesn't have the requested style.
+font-synthetic-style = bold,italic,bold-italic
+# Sets the font size in points.
+font-size = 11
+# Adds a slight outline to the font, making it appear bolder.
+font-thicken = true
+
+# Theme & Colors
+# Sets the color theme.
+theme = "apple-valley"
+# Inverts foreground and background colors for selections.
+selection-invert-fg-bg = false
+# Minimum contrast ratio between foreground and background colors.
+minimum-contrast = 1.0
+# Opacity of the background (0.0 - 1.0).
+background-opacity = 1
+# Opacity of unfocused splits.
+unfocused-split-opacity = 0.7
+# Color to fill unfocused splits.
+unfocused-split-fill =
+# Makes bold text brighter.
+bold-is-bright = true
+# Format for OSC color reports.
+osc-color-report-format = 16-bit
+
+# Cursor
+# Opacity of the cursor (0.0 - 1.0).
+cursor-opacity = 1
+# Style of the cursor. Options: block, underline, bar.
+cursor-style = block
+# Whether the cursor should blink.
+cursor-style-blink = true
+
+# Mouse
+# Hides the mouse cursor while typing.
+mouse-hide-while-typing = true
+# Multiplier for mouse scroll events.
+mouse-scroll-multiplier = 2
+
+# Window & Padding
+# Initial window width.
+window-width = 120
+# Initial window height.
+window-height = 32
+# Horizontal window padding.
+window-padding-x = 0
+# Vertical window padding.
+window-padding-y = 4
+# Balances padding on all sides.
+window-padding-balance = true
+# Color of the padding area.
+window-padding-color = background
+# New windows inherit the current working directory.
+window-inherit-working-directory = false
+# New windows inherit the current font size.
+window-inherit-font-size = false
+# Enables window decorations (title bar, borders).
+window-decoration = false
+# Sets the window theme.
+window-theme = auto
+# Saves and restores window state.
+window-save-state = always
+# Position of new tabs.
+window-new-tab-position = current
+# Uses GTK titlebar.
+gtk-titlebar = false
+# Location of tabs in the window.
+gtk-tabs-location = bottom
+# Uses wide tabs in the window.
+gtk-wide-tabs = false
+
+# Uses Adwaita theme for GTK widgets.
+gtk-adwaita = true
+
+# Clipboard
+# Enables paste protection (bracketed paste).
+clipboard-paste-protection = true
+# Uses bracketed paste mode for safe pasting.
+clipboard-paste-bracketed-safe = true
+# Copies selected text to the clipboard automatically.
+copy-on-select = true
+
+# Other/Misc
+# Time in milliseconds to display the prompt after an abnormal command exit.
+abnormal-command-exit-runtime = 250
+# Maximum number of lines to keep in the scrollback buffer.
+scrollback-limit = 10000000
+# Enables clickable URLs.
+link-url = true
+# Starts the terminal in fullscreen mode.
+fullscreen = false
+# Sets the window title.
+title =
+# Maximum memory for storing images.
+image-storage-limit = 320000000
+# Asks for confirmation before closing a window with running processes.
+confirm-close-surface = false
+# Linux cgroup settings.
+linux-cgroup = single-instance
+# Allows multiple instances of the application.
+gtk-single-instance = false
+# Enables desktop notifications.
+desktop-notifications = true

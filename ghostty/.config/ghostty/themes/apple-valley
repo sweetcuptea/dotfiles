@@ -1,0 +1,42 @@
+# Typically used for the default background color
+palette = 0=#282828
+palette = 8=#303030
+
+# Often used for errors, warnings, or important messages that need to stand out
+palette = 1=#F26A6A
+palette = 9=#F69B9B
+
+# Commonly used for file names, directories, or successful operations/messages
+palette = 2=#EA8386
+palette = 10=#F1ACAE
+
+# Frequently used for prompts, input fields, or emphasized text
+palette = 3=#78C193
+palette = 11=#B1DCC1
+
+# Often used for links, URLs, or other interactive elements
+palette = 4=#FFDF7C
+palette = 12=#FFEDB4
+
+# Less consistenly used, but sometimes for metadata, comments, or less important information
+palette = 5=#E6A9F0
+palette = 13=#F1CEF6
+
+# Also less consistenly used, but might be for diff output (added lines), search results, or other secondary information
+palette = 6=#6EC1E7
+palette = 14=#ACDCF1
+
+# Usually the default foreground (text) color
+palette = 7=#bac2de
+palette = 15=#a6adc8
+
+# Sets the color of your text cursor
+cursor-color = #EA8386
+# This sets the main background color of your terminal window
+background = #272727 
+# This sets the default text color
+foreground = #F3EED9 
+# This sets the background color of selected text
+selection-background = #404040
+# This sets the foreground color of selected text
+selection-foreground = #F3EED9
