@@ -3,7 +3,7 @@ palette = 0=#282828
 palette = 8=#303030
 
 # Often used for errors, warnings, or important messages that need to stand out
-palette = 1=#F26A6A
+palette = 1=#F3EED9
 palette = 9=#F69B9B
 
 # Commonly used for file names, directories, or successful operations/messages
@@ -15,7 +15,7 @@ palette = 3=#78C193
 palette = 11=#B1DCC1
 
 # Often used for links, URLs, or other interactive elements
-palette = 4=#FFDF7C
+palette = 4=#EA8386
 palette = 12=#FFEDB4
 
 # Less consistenly used, but sometimes for metadata, comments, or less important information
@@ -27,7 +27,7 @@ palette = 6=#6EC1E7
 palette = 14=#ACDCF1
 
 # Usually the default foreground (text) color
-palette = 7=#bac2de
+palette = 7=#F3EED9
 palette = 15=#a6adc8
 
 # Sets the color of your text cursor
