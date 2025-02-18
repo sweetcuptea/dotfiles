@@ -45,7 +45,7 @@
         },
         {
           "properties": {
-            "style": "full"
+            "style": "folder"
           },
           "style": "powerline",
           "template": " {{ .Path }} ",
