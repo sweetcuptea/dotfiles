@@ -99,6 +99,12 @@ clipboard-paste-bracketed-safe = true
 # Copies selected text to the clipboard automatically.
 copy-on-select = true
 
+# MacOS config
+# Sets the style of the titlebar on macOS (unified, normal, hidden).
+macos-titlebar-style = hidden
+# Window shadow
+macos-window-shadow = true
+
 # Other/Misc
 # Time in milliseconds to display the prompt after an abnormal command exit.
 abnormal-command-exit-runtime = 250
