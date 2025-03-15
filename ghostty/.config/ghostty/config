@@ -20,7 +20,7 @@ font-style-bold-italic = default
 # Set which style to use when the font doesn't have the requested style.
 font-synthetic-style = bold,italic,bold-italic
 # Sets the font size in points.
-font-size = 11
+font-size = 13
 # Adds a slight outline to the font, making it appear bolder.
 font-thicken = true
 
@@ -32,7 +32,7 @@ selection-invert-fg-bg = false
 # Minimum contrast ratio between foreground and background colors.
 minimum-contrast = 1.0
 # Opacity of the background (0.0 - 1.0).
-background-opacity = 1
+background-opacity = 0.8
 # Opacity of unfocused splits.
 unfocused-split-opacity = 0.7
 # Color to fill unfocused splits.
