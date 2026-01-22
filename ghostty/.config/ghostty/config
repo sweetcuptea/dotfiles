@@ -74,7 +74,7 @@ window-inherit-working-directory = false
 # New windows inherit the current font size.
 window-inherit-font-size = false
 # Enables window decorations (title bar, borders).
-window-decoration = false
+window-decoration = true 
 # Sets the window theme.
 window-theme = auto
 # Saves and restores window state.
