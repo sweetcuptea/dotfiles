@@ -89,7 +89,7 @@ gtk-tabs-location = bottom
 gtk-wide-tabs = false
 
 # Uses Adwaita theme for GTK widgets.
-gtk-adwaita = true
+# gtk-adwaita = true
 
 # Clipboard
 # Enables paste protection (bracketed paste).
