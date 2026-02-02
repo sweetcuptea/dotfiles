@@ -48,7 +48,7 @@ opt.undofile = true -- saves undo history to a file for persistence
 opt.smoothscroll = true -- enables smooth scrolling for a fluid experience
 
 if vim.fn.has("nvim-0.10") == 1 then
-  opt.foldexpr = "v:lua.require'lazyvim.util'.ui.foldexpr()" -- uses LazyVim's custom folding expression
+  opt.foldexpr = "v:lua.require'lazyvim.util'.treesitter.foldexpr()" -- uses LazyVim's custom folding expression
   opt.foldmethod = "expr" -- sets folding to be based on an expression
   opt.foldtext = "" -- disables custom fold text
 else
