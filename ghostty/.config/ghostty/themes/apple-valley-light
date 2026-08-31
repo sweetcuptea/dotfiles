@@ -1,7 +1,6 @@
 # Apple Valley — Ghostty light theme
-# Source of truth: ~/Documents/sweetcuptea design system/apple-valley-theme-guide.md
-# Light mode shades come from Section 2.5 (Light Mode Table).
-# ANSI follows Section 5 (semantic), mapped to light-mode shades, with the same
+# Light mode shades come from the light-mode table.
+# ANSI follows semantic mapping, mapped to light-mode shades, with the same
 # "standout" taste as dark: slots 2 & 4 → Peach 700 #a65d5f (accent-as-text, 4.5:1).
 
 # Surfaces (guide Section 6 + Section 2.5 light)

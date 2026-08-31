@@ -1,6 +1,5 @@
-# Apple Valley — Ghostty color theme
-# Source of truth: ~/Documents/sweetcuptea design system/apple-valley-theme-guide.md
-# ANSI follows Section 5 (semantic mapping), with the "standout" taste:
+# Apple Valley — Ghostty dark theme
+# ANSI follows semantic mapping, with the "standout" taste:
 # slots 2 & 4 → Peach 500 #ea8386 (accent identity).
 
 # Surfaces (guide Section 6 — Ghostty)
