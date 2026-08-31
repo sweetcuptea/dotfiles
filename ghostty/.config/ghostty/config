@@ -25,8 +25,8 @@ font-size = 13
 font-thicken = true
 
 # Theme & Colors
-# Sets the color theme.
-theme = "apple-valley"
+# Sets the color theme, auto-switching with the system appearance.
+theme = dark:apple-valley, light:apple-valley-light
 # Inverts foreground and background colors for selections.
 selection-invert-fg-bg = false
 # Minimum contrast ratio between foreground and background colors.
