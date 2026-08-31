@@ -1,42 +1,33 @@
-# Typically used for the default background color
-palette = 0=#282828
-palette = 8=#303030
+# Apple Valley — Ghostty color theme
+# Source of truth: ~/Documents/sweetcuptea design system/apple-valley-theme-guide.md
+# ANSI follows Section 5 (semantic mapping), with the "standout" taste:
+# slots 2 & 4 → Peach 500 #ea8386 (accent identity).
 
-# Often used for errors, warnings, or important messages that need to stand out
-palette = 1=#F3EED9
-palette = 9=#F69B9B
+# Surfaces (guide Section 6 — Ghostty)
+# Main background: Neutral 900
+background = #1a1a1a
+# Default text: Neutral 50 (warm white, not pure white)
+foreground = #fafafa
+# Cursor: Peach 500 (accent)
+cursor-color = #ea8386
+# Selection: surface Neutral 700 bg + text Neutral 50
+selection-background = #434343
+selection-foreground = #fafafa
 
-# Commonly used for file names, directories, or successful operations/messages
-palette = 2=#EA8386
-palette = 10=#F1ACAE
-
-# Frequently used for prompts, input fields, or emphasized text
-palette = 3=#78C193
-palette = 11=#B1DCC1
-
-# Often used for links, URLs, or other interactive elements
-palette = 4=#EA8386
-palette = 12=#FFEDB4
-
-# Less consistenly used, but sometimes for metadata, comments, or less important information
-palette = 5=#E6A9F0
-palette = 13=#F1CEF6
-
-# Also less consistenly used, but might be for diff output (added lines), search results, or other secondary information
-palette = 6=#6EC1E7
-palette = 14=#ACDCF1
-
-# Usually the default foreground (text) color
-palette = 7=#F3EED9
-palette = 15=#a6adc8
-
-# Sets the color of your text cursor
-cursor-color = #EA8386
-# This sets the main background color of your terminal window
-background = #272727 
-# This sets the default text color
-foreground = #F3EED9 
-# This sets the background color of selected text
-selection-background = #404040
-# This sets the foreground color of selected text
-selection-foreground = #F3EED9
+# ANSI 16-color (guide Section 5)
+palette = 0=#1a1a1a
+palette = 1=#ff6969
+palette = 2=#ea8386
+palette = 3=#ffad33
+palette = 4=#ea8386
+palette = 5=#9e76f5
+palette = 6=#33c8e2
+palette = 7=#fafafa
+palette = 8=#292929
+palette = 9=#ff8181
+palette = 10=#62d494
+palette = 11=#ffbb54
+palette = 12=#58c3f4
+palette = 13=#ae8cf6
+palette = 14=#54d1e7
+palette = 15=#a5a5a5
