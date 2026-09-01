@@ -3,25 +3,25 @@
 # slots 2 & 4 → Peach 500 #ea8386 (accent identity).
 
 # Surfaces (guide Section 6 — Ghostty)
-# Main background: Neutral 900
-background = #1a1a1a
-# Default text: Neutral 50 (warm white, not pure white)
-foreground = #fafafa
+# Main background: Neutral 800
+background = #292929
+# Default text: Neutral 100 (warm white, not pure white)
+foreground = #f5f5f5
 # Cursor: Peach 500 (accent)
 cursor-color = #ea8386
-# Selection: surface Neutral 700 bg + text Neutral 50
+# Selection: surface Neutral 700 bg + text Neutral 100
 selection-background = #434343
-selection-foreground = #fafafa
+selection-foreground = #f5f5f5
 
 # ANSI 16-color (guide Section 5)
-palette = 0=#1a1a1a
+palette = 0=#292929
 palette = 1=#ff6969
 palette = 2=#ea8386
 palette = 3=#ffad33
 palette = 4=#ea8386
 palette = 5=#9e76f5
 palette = 6=#33c8e2
-palette = 7=#fafafa
+palette = 7=#f5f5f5
 palette = 8=#292929
 palette = 9=#ff8181
 palette = 10=#62d494

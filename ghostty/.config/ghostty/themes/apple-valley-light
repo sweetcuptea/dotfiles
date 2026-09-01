@@ -4,28 +4,28 @@
 # "standout" taste as dark: slots 2 & 4 → Peach 700 #a65d5f (accent-as-text, 4.5:1).
 
 # Surfaces (guide Section 6 + Section 2.5 light)
-# Main background: Neutral 50 (light end)
-background = #fafafa
-# Default text: Neutral 900
-foreground = #1a1a1a
+# Main background: Neutral 100 (light end)
+background = #f5f5f5
+# Default text: Neutral 800
+foreground = #292929
 # Cursor: Peach 500 (accent fill) with dark text on top
 cursor-color = #ea8386
-cursor-text = #1a1a1a
-# Selection: surface Neutral 200 bg + text Neutral 900
+cursor-text = #292929
+# Selection: surface Neutral 200 bg + text Neutral 800
 selection-background = #e6e6e6
-selection-foreground = #1a1a1a
+selection-foreground = #292929
 
 # ANSI 16-color (light-mode shades of the Section 5 roles)
 # Bright slots mirror their base slot: in light mode "lighter = worse contrast",
 # so per the guide bright colors do NOT lighten — they reuse the deep shade.
-palette = 0=#fafafa
+palette = 0=#f5f5f5
 palette = 1=#b53030
 palette = 2=#a65d5f
 palette = 3=#8c5400
 palette = 4=#a65d5f
 palette = 5=#7a4cdc
 palette = 6=#006678
-palette = 7=#1a1a1a
+palette = 7=#292929
 palette = 8=#f5f5f5
 palette = 9=#b53030
 palette = 10=#0c6934
